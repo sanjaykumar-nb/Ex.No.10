@@ -1,8 +1,7 @@
-# Ex.No.10
-Content Creation (Reports, Articles, Case Studies, etc.) Using Prompt Patterns
+# Ex.No.10 Content Creation (Reports, Articles, Case Studies, etc.) Using Prompt Patterns
 
 ## Date:
-## Reg. No.
+## Reg. No.212223230189
 
 ## Aim:
 To demonstrate how various prompting techniques (query decomposition, decision-making, semantic filtering, etc.) can be employed to create content such as reports, articles, case studies, or creative works like comic books, using ChatGPT or similar models. The objective is to highlight how different prompt structures affect the content's quality, coherence, and structure.
@@ -62,5 +61,89 @@ content generation scenarios:
 3.	Multiple Versions: Different versions of the content, showing the effect of prompt changes on the output.
 4.	Final Version: The polished version of the content after incorporating feedback and refining the prompts.
 
+# output:
+| Technique                | Description                                                               | Use Cases                                      |
+| ------------------------ | ------------------------------------------------------------------------- | ---------------------------------------------- |
+| **Query Decomposition**  | Breaking complex prompts into sequential steps or sub-questions.          | Reports, analysis, multi-section content       |
+| **Decision-Making**      | Prompting the model to choose paths based on conditions.                  | Storytelling, business scenarios, simulations  |
+| **Semantic Filtering**   | Applying constraints such as tone, time frame, or source credibility.     | Case studies, journalism, academic writing     |
+| **Few-Shot Prompting**   | Using examples to guide format, tone, or logic.                           | Style imitation, structured content            |
+| **Role-Based Prompting** | Assigning the model a specific persona to shape voice and response angle. | Dialogues, creative writing, professional POVs |
+# Demonstration: A Case Study Topic
+# Topic: “Remote Work Adoption in Tech Companies”
+Each technique is tested with this topic for comparative output.
+
+# 1. Naive Prompt (Control Group)
+Prompt: “Write a case study about remote work in a tech company.”
+
+# Output Quality:
+• Structure: ✖️ Weak <br />
+• Coherence: ⚠️ Moderate <br />
+• Insight: ⚠️ Generic <br />
+# 2. Query Decomposition
+# Prompt Sequence:
+Describe the company and its structure.
+Why was remote work adopted?
+What were the productivity outcomes?
+What lessons were learned post-implementation?
+
+# Output Quality:
+• Structure: ✅ Strong  <br />
+• Coherence: ✅ High <br />
+• Insight: ✅ Deep <br />
+# 3. Decision-Making Prompt
+# Prompt: 
+“If the company is a startup, describe how flexibility improved innovation. If it's an enterprise, focus on operational scalability during remote adoption.”
+
+# Output Quality:
+• Structure: ✅ Adaptive <br />
+• Coherence: ✅ High <br />
+• Insight: ✅ Tailored <br />
+4. Semantic Filtering
+Prompt: “Write a case study about remote work in a tech company based only on 2020–2023 peer-reviewed studies and employee surveys.”
+
+Output Quality:
+• Structure: ✅ Scoped <br />
+• Coherence: ✅ Strong <br />
+• Insight: ✅ Evidence-based <br />
+
+# 5. Few-Shot Prompting
+# Prompt:
+Example 1: A structured case study on hybrid work in finance.
+Example 2: A case study about agile teams in remote environments.
+Then: “Now write a case study on remote work in a tech company using the above format.”
+
+# Output Quality:
+• Structure: ✅ Consistent <br />
+• Coherence: ✅ High <br />
+• Insight: ⚠️ Moderate (depends on example quality) <br />
+
+# 6. Role-Based Prompting
+# Prompt:
+“As an HR Director of a mid-size tech company, write a personal account of how remote work evolved in your team.”
+# Output Quality:
+• Structure: ✅ Narrative <br />
+• Coherence: ✅ High <br />
+• Insight: ✅ Authentic and practical <br />
+# Creative Content
+Example: Comic Book Scene
+# Scenario: An AI learns human emotions.
+| Prompt Type           | Prompt                                                               | Output Insight                                  |
+| --------------------- | -------------------------------------------------------------------- | ----------------------------------------------- |
+| **Naive Prompt**      | “Write a comic scene about an AI understanding emotions.”            | Fragmented dialogue, inconsistent pacing        |
+| **Structured Prompt** | 1. Introduce AI in lab. 2. Show emotional confusion. 3. Human helps. | Strong buildup, character arc, emotional depth  |
+| **Role-Based Prompt** | “Narrate from AI’s internal monologue.”                              | Engaging tone, self-reflection, immersive story |
+| **Few-Shot Prompt**   | Using sample comic scenes from “Big Hero 6” or “Wall-E”              | Stylized tone, visual cues, thematic alignment  |
+# Comparison Table
+| Technique                | Structure | Coherence | Depth | Best For                      |
+| ------------------------ | --------- | --------- | ----- | ----------------------------- |
+| **Naive Prompt**         | ✖️        | ⚠️        | ⚠️    | Quick drafts, brainstorming   |
+| **Query Decomposition**  | ✅         | ✅         | ✅     | Research, reports, clarity    |
+| **Decision-Making**      | ✅         | ✅         | ✅     | Strategy-based storytelling   |
+| **Semantic Filtering**   | ✅         | ✅         | ✅     | Evidence-driven content       |
+| **Few-Shot Prompting**   | ✅         | ✅         | ⚠️    | Mimicking formats or styles   |
+| **Role-Based Prompting** | ✅         | ✅         | ✅     | Narrative, persuasive writing |
+
 ## Conclusion:
 By applying various prompting techniques, you can generate high-quality content for a wide range of use cases, from business reports and case studies to creative works like short stories and articles. This experiment demonstrates how structured prompting can guide AI models like ChatGPT to create coherent, accurate, and engaging outputs tailored to specific needs.
+](https://github.com/RaajaThilahar/Ex.No.10.git )
